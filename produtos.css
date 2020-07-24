@@ -1,8 +1,6 @@
-
-/*Body*/
-.pgntoda{
+.pgntoda {
     height:auto;
-    padding: 2% 0;
+    padding: 40px 0;
     color:#fff;
     font-size:20px;
     text-align:center;
@@ -12,28 +10,21 @@
     background-image: linear-gradient(to bottom, #E9F0F2, #9CA3A6 130%);
 }
 
-/*Menu*/
 .navegacao {
     overflow: hidden;
     display: fixed;
   }
 
 .navegacao a {
-
     font-family: Fredericka the Great;
     float: right;
     display: fixed;
     color: #363840;
     text-align: center;
-    padding: 1% 2%;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 30px;
     border-radius: 10%;
-}
-
-.navegacao a:hover {
-    background-color: rgba(0, 204, 255, 0.644);
-    color: black;
 }
 
 .navegacao a:hover {
@@ -41,32 +32,55 @@
     color: #363840;
 
 }
+
 #home{
     float: left;
 }
+
 .tamanhoicone {
     width: 30%;
 }
 .tamanhoicone:hover {
     width: 30%;
 }
-/*Imagem Home*/
+
 .fotohome {
     width: 40%;
 }
-/*Rodapé*/
+
+img{
+    height: 150px;
+}
+
+/*.grid-conteudo {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}*/
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 #escrita-rodape{
     font-family: Fredericka the Great;
     display: fixed;
     font-size: 20px;
     font-style: initial;
-    color: #363840;
+    color: black;
 }
 
 .tamanho{
     height: 50px;
     opacity:  50%;
-
 }
 
 footer {
@@ -77,14 +91,3 @@ footer {
     bottom: 0;
     width: 100%;
   }
-/*Quem Somos*/
-#quemsomos {
-    color: #363840;
-    padding: 3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#quemsomos1 {
-    color: #363840;
-    padding: 3%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
