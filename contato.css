@@ -1,0 +1,169 @@
+.pgntoda {
+    height:auto;
+    padding: 40px 0;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    border-radius:4px;
+    border:1px solid #403C36;
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #E9F0F2, #9CA3A6 130%);
+}
+
+.navegacao {
+    overflow: hidden;
+    display: fixed;
+  }
+
+.navegacao a {
+
+    font-family: Fredericka the Great;
+    float: right;
+    display: fixed;
+    color: #363840;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.navegacao a:hover {
+    background-color: #9CA3A6;
+    color: #363840;
+
+}
+
+#home{
+    float: left;
+}
+
+.tamanhoicone {
+    width: 30%;
+}
+.tamanhoicone:hover {
+    width: 30%;
+}
+
+.fotohome {
+    width: 40%;
+}
+
+/* MAIN */
+main {
+    height: 90%;
+    width: 100%;
+
+    max-width: 800px;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #9CA3A6;
+
+    margin: auto;
+}
+
+.contato {
+    background-color: #9CA3A6;
+    
+    height: 55vh;
+    width: 40vw;
+    max-width: 705px;
+    
+    border-radius: 5%;
+}
+
+h2 {
+    color: #363B40;
+    font-size: 30px;
+
+    margin-top: 10px;
+}
+
+form {
+    height: 75%;
+    width: 80%;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+label {
+    margin: 5px 0;
+
+    text-align: left;
+    color: #363B40;
+}
+
+input {
+    height: 20px;
+    width: 100%;
+
+    border-radius: 15px;
+    border: none;
+
+}
+
+#msg {
+    height: 60px;
+}
+
+button {
+    background-color: #D0D7D9;
+    color: #363B40;
+
+    height: 20px;
+    width: 80px;
+
+    font-weight: bold;
+
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+/* FOOTER */
+#escrita-rodape{
+    font-family: Fredericka the Great;
+    display: fixed;
+    font-size: 20px;
+    font-style: initial;
+    color: #363840;
+}
+
+.tamanho{
+    height: 50px;
+    opacity:  50%;
+
+}
+
+footer {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+  }
+
+#quemsomos {
+    color: #363840;
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#quemsomos1 {
+    color: #363840;
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
