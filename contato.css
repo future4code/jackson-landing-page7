@@ -70,7 +70,7 @@ main {
 .contato {
     background-color: #9CA3A6;
     
-    height: 55vh;
+    height: 50vh;
     width: 40vw;
     max-width: 705px;
     
@@ -138,6 +138,7 @@ button {
     font-size: 20px;
     font-style: initial;
     color: #363840;
+    position: bottom;
 }
 
 .tamanho{
